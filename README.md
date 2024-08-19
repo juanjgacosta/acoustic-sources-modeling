@@ -11,3 +11,5 @@ Project that graphically represents the radiation pattern of acoustic sources.
 ## Intro
 
 ## Dipole Source
+
+<img src="./figures/dipole-source.png" alt="Dipole source image"/>
