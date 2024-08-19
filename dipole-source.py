@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 ## Dipole parameters
 
@@ -55,9 +56,24 @@ W_D = (rho_density * c_speed_sound) * ((k_wavenum**4 * (d_separation / 2)**2 * (
 p_squared = (3 * W_D * rho_density * c_speed_sound) / (4 * np.pi * r_radius) * np.cos(theta * np.pi / 180)**2
 
 SPL_dipole = 10 * np.log10(p_squared / p_ref**2)
-print('SPL: ', SPL_dipole)
+# print('SPL: ', SPL_dipole)
 
 fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
 ax.plot(theta*np.pi/180, SPL_dipole)
 ax.set_rticks([0, 20, 40, 60, 80]) 
+
+# Title and grid
+plt.title("Dipole Source", fontsize=14)
+# plt.grid(True, which="both", linestyle="--", linewidth=1.0)
+
+# Adjust layout to prevent cutting off the labels
+plt.tight_layout()
+
+# Ensure the 'figures' directory exists
+os.makedirs("figures", exist_ok=True)
+
+# Save the plot to a file
+plt.savefig(os.path.join("figures", "dipole-source.png"))
+
+# Display the plot
 plt.show()
