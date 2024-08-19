@@ -54,9 +54,11 @@ def monopole_source():
     # Ensure the 'figures' directory exists
     os.makedirs("figures", exist_ok=True)
 
+    ax.plot(theta * np.pi / 180, SPL, linewidth=2.0)
+
+    ax.set_rticks([0, 20, 40, 60, 80, 100])
+
     # Save the plot to a file
     plt.savefig(os.path.join("figures", "monopole-source.png"))
 
-    ax.plot(theta * np.pi / 180, SPL)
-    ax.set_rticks([0, 20, 40, 60, 80, 100])
     plt.show()

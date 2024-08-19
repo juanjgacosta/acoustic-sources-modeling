@@ -53,14 +53,13 @@ def dipole_source():
 
     W_D = (rho_density * c_speed_sound) * ((k_wavenum**4 * (d_separation / 2)**2 * (Q_rms**2)) / (3 * np.pi * (1 + k_wavenum**2 * a_radius**2)))
 
-
     p_squared = (3 * W_D * rho_density * c_speed_sound) / (4 * np.pi * r_radius) * np.cos(theta * np.pi / 180)**2
 
     SPL_dipole = 10 * np.log10(p_squared / p_ref**2)
     # print('SPL: ', SPL_dipole)
 
     fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-    ax.plot(theta*np.pi/180, SPL_dipole)
+    ax.plot(theta * np.pi / 180, SPL_dipole, linewidth=2.0)
     ax.set_rticks([0, 20, 40, 60, 80]) 
 
     # Title and grid
