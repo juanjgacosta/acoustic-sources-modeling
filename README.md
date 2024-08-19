@@ -6,6 +6,7 @@ Project that graphically represents the radiation pattern of acoustic sources.
 
 - [Intro](#intro)
 - [Install](#install)
+- [Monopole Source](#monopole-source)
 - [Dipole Source](#dipole-source)
 
 ## Intro
@@ -27,6 +28,10 @@ Project that graphically represents the radiation pattern of acoustic sources.
 - Run main script
 
   `python3 main.py`
+
+## Monopole Source
+
+<img src="./figures/monopole-source.png" alt="Monopole source image"/>
 
 ## Dipole Source
 
