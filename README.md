@@ -8,6 +8,7 @@ Project that graphically represents the radiation pattern of acoustic sources.
 - [Install](#install)
 - [Monopole Source](#monopole-source)
 - [Dipole Source](#dipole-source)
+- [Quadrupole Linear Source](#quadrupole-linear-source)
 
 ## Intro
 
@@ -36,3 +37,7 @@ Project that graphically represents the radiation pattern of acoustic sources.
 ## Dipole Source
 
 <img src="./figures/dipole-source.png" alt="Dipole source image"/>
+
+## Quadrupole Linear Source
+
+<img src="./figures/quadrupole-linear-source.png" alt="Quadrupole linear source image"/>
