@@ -86,5 +86,7 @@ The radiation pattern presents similarities to that of the linear quadrupole, bu
 # References
 
 - Beranek, L. L. _Acoustics_. Acoustical Society of America, 1996.
+
 - Bies, D. A.; Hansen, C. H.; Howard, C. Q. _Engineering Noise Control: Theory and Practice_. CRC Press, 2017.
-- Gómez Acosta, J. J. _Projeto e Desenvolvimento de um Sonômetro de Baixo Custo_. Master's Dissertation, Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), 2023.
+
+- Gómez Acosta, J. J. _Projeto e Desenvolvimento de um Sonômetro de Baixo Custo_. Master's Dissertation, Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), 2023. [Available online](https://www.maxwell.vrac.puc-rio.br/colecao.php?strSecao=resultado&nrSeq=67341&idi1=&rc=1).
